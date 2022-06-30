@@ -11,7 +11,10 @@ jobs:
     steps:
       - name: "CLA Assistant validation"
         if: ${{ env.PERSONAL_ACCESS_TOKEN == '' }}
-        run: echo "Personal access token is required"      
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('Please add a Personal Access Token!')
       - name: "CLA Assistant"
         if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
         # Beta Release
