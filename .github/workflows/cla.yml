@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "CLA Assistant validation"
-        if: ${{ env.PERSONAL_ACCESS_TOKEN == '' }}
+        if: ${{ env.PERSONAL_ACCESS_TOKEN != 0 }}
         run: echo "Personal access token is required"      
       - name: "CLA Assistant"
         if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
