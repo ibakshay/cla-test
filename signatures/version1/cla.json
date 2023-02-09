@@ -1,36 +1,4 @@
 {
   "signedContributors": [
-    {
-      "name": "ibakshay",
-      "id": 334354329946,
-      "comment_id": 1423874769,
-      "created_at": "2023-02-09T09:22:09Z",
-      "repoId": 509018366,
-      "pullRequestNo": 22
-    },
-    {
-      "name": "ibakshay",
-      "id": 333565629946,
-      "comment_id": 1423874769,
-      "created_at": "2023-02-09T09:22:09Z",
-      "repoId": 509018366,
-      "pullRequestNo": 22
-    },
-    {
-      "name": "ibakshay",
-      "id": 3233329946,
-      "comment_id": 1423874769,
-      "created_at": "2023-02-09T09:22:09Z",
-      "repoId": 509018366,
-      "pullRequestNo": 22
-    },
-    {
-      "name": "ibakshay",
-      "id": 33329946,
-      "comment_id": 1423874769,
-      "created_at": "2023-02-09T09:22:09Z",
-      "repoId": 509018366,
-      "pullRequestNo": 22
-    }
   ]
 }
