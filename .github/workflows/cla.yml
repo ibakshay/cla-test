@@ -25,7 +25,7 @@ jobs:
           allowlist: user1,bot*
 
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken
-          remote-organization-name: cla-assistant-akshayib
+          remote-organization-name: cla-assistant-bot
           remote-repository-name:  cla-assistant-test1
           #create-file-commit-message: 'For example: Creating file for storing CLA Signatures'
          # signed-commit-message: "$contributorName has signed the CLA in $owner/$repo#$pullRequestNo"
