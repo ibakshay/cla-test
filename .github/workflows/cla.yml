@@ -9,8 +9,8 @@ jobs:
   CLAssistant:
     runs-on: ubuntu-latest
     permissions:
-      #actions: read|write|none
-      #checks: read|write|none
+      actions: read|write|none
+      checks: read|write|none
       contents: read
       #deployments: read|write|none
       #id-token: read|write|none
