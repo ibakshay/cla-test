@@ -5,7 +5,11 @@ on:
   pull_request_target:
     types: [opened,closed,synchronize]
     
-permissions: read-all
+permissions:
+  #actions: read|write|none
+  contents: write
+  pull-requests: write
+  statuses: write
 jobs:
   CLAssistant:
     runs-on: ubuntu-latest
