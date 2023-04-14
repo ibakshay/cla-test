@@ -2,27 +2,11 @@
   "signedContributors": [
     {
       "name": "ibakshay",
-      "id": 3332934946,
-      "comment_id": 1433697400,
-      "created_at": "2023-02-16T20:50:17Z",
-      "repoId": 509018366,
-      "pullRequestNo": 28
-    },
-    {
-      "name": "ibakshay",
-      "id": 3332239946,
-      "comment_id": 1433750786,
-      "created_at": "2023-02-16T21:42:28Z",
-      "repoId": 509018366,
-      "pullRequestNo": 33
-    },
-    {
-      "name": "ibakshay",
       "id": 33329946,
-      "comment_id": 1433750786,
-      "created_at": "2023-02-16T21:42:28Z",
+      "comment_id": 1433758722,
+      "created_at": "2023-02-16T21:50:49Z",
       "repoId": 509018366,
-      "pullRequestNo": 33
+      "pullRequestNo": 31
     }
   ]
 }
