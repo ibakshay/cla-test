@@ -19,7 +19,7 @@ jobs:
         # Beta Release
         uses: contributor-assistant/github-action@v2.3.2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           # the below token should have repo scope and must be manually added by you in the repository's secret. It is only required when you want to store signatures in a remote repository/org
           PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
